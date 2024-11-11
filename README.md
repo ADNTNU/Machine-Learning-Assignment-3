@@ -36,13 +36,13 @@ Run the: [setup_venv](scripts/setup_venv.bat)
 Mac:
 
 ```shell
-python3 -m venv env
+python3 -m venv venv
 ```
 
 Windows:
 
 ```shell
-python -m venv env
+python -m venv venv
 ```
 
 ### Activate Enviroment
@@ -50,13 +50,13 @@ python -m venv env
 Mac:
 
 ```shell
-source env/bin/activate
+source venv/bin/activate
 ```
 
 Windows:
 
 ```shell
-env/Scripts/activate.bat
+venv/Scripts/activate.bat
 ```
 
 ### Deactivate
