@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Create a virtual environment named 'venv'
-python3 -m venv venv
+# Create a virtual environment named '.venv'
+python3 -m venv .venv
 
 # Activate the virtual environment
-source venv/bin/activate
+source .venv/bin/activate
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
 
 # Inform the user
-echo "Virtual environment 'venv' created and dependencies installed."
-echo "To activate the environment, run: source venv/bin/activate"
+echo "Virtual environment '.venv' created and dependencies installed."
