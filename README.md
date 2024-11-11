@@ -15,7 +15,6 @@ Assignment at NTNU course IE500618
   - [Activate enviroment](#activate-enviroment)
   - [Deactivate](#deactivate)
   - [Install Requirements](#install-requirements)
-- [How we collabriated](#how-we-collabriated)
 
 ## Installation
 
@@ -70,7 +69,3 @@ deactivate
 ```shell
 pip install -r requirements.txt
 ```
-
-## How we collabriated
-
-We used Disord to communicate. We first set up the enviroment, and started looking over the data.
